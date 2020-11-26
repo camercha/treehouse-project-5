@@ -1,0 +1,21 @@
+*{
+    box-sizing: border-box;
+}
+
+main{
+    flex-direction: column;
+   border: 1px solid red;
+}
+
+
+input{
+    display: block;
+    margin: auto;
+    width: 45%;
+    height: 40px;
+}
+
+#search{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
