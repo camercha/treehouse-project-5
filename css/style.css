@@ -26,7 +26,7 @@ input{
 .gallery{
     border: 1px solid blue;
     display: grid;
-    grid-gap: 2rem;
+    grid-gap: 1rem;
     width: 55%;
 
     margin: auto;

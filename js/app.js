@@ -1,3 +1,7 @@
 baguetteBox.run('.gallery', {
-    captions();
+
 });
+
+
+
+
