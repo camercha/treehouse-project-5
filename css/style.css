@@ -23,7 +23,7 @@ input{
     padding-bottom: 20px;
 }
 
-#gridarea{
+.gallery{
     border: 1px solid blue;
     display: grid;
     grid-gap: 1rem;
