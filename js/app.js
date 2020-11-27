@@ -6,20 +6,14 @@ baguetteBox.run('.gallery');
 
 
 
-
-// function myFunction() {
-//     let = input;
-//     input = document.getElementById('searchbar');
-//     return console.log(myFunction());
-//     upper = input.value.toUppercase();
-
+document.getElementById('searchbar').addEventListener('keyup', myFunction);
+function myFunction() {
+    var x = document.getElementById('searchbar');
+    x.value = x.value.toUpperCase();
+    console.log(x.value)
 
 
-// }
-
-// for (i = 0; i < img.length; i++) {
-//     a = img[i].getElementsByTagName('a')[0];
-// }
+}
 
 
 
