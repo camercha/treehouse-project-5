@@ -6,30 +6,30 @@ baguetteBox.run('.gallery');
 let input;
 let a;
 let i;
-let textValue;
-let title;
 
 
 document.getElementById('searchbar').addEventListener('keyup', myFunction);
 function myFunction() {
     input = document.getElementById('searchbar');
     filter = input.value.toLowerCase();
-    a = document.getElementsByTagName('a');
+    data = document.getElementsByTagName('a');
     console.log(input.value);
 
 
-    for (i = 0; i < a.length; i++) {
-        title = a[i].getAttribute('data-caption');
-        if (title.toLowerCase().indexOf(filter) > -1) {
-            a[i].style.display = '';
+    for (i = 0; i < data.length; i++) {
+        a = data[i].getAttribute("data-caption");
+        if (a.toLowerCase().indexOf(filter) > -1) {
+            data[i].style.display = "";
         } else {
-            a[i].style.display = 'none';
+            data[i].style.display = "none"
         }
     }
 
 
 
-
 }
+
+
+
 
 
