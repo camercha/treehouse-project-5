@@ -1,11 +1,11 @@
 baguetteBox.run('.gallery');
 
 
-
-
 let input;
 let a;
 let i;
+let filter;
+let data;
 
 
 document.getElementById('searchbar').addEventListener('keyup', myFunction);
