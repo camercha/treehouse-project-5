@@ -13,7 +13,6 @@ function myFunction() {
     input = document.getElementById('searchbar');
     filter = input.value.toLowerCase();
     data = document.getElementsByTagName('a');
-    console.log(input.value);
 
 
     for (i = 0; i < data.length; i++) {
