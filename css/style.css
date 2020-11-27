@@ -26,8 +26,8 @@ input{
 .gallery{
     border: 1px solid blue;
     display: grid;
-    grid-gap: 1rem;
-    width: 50%;
+    grid-gap: 2rem;
+    width: 55%;
 
     margin: auto;
     grid-template-columns: repeat(auto-fill,minmax(200px,1fr))
