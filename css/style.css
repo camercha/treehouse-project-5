@@ -28,6 +28,7 @@ input{
     display: grid;
     grid-gap: 1rem;
     width: 55%;
+   justify-items: center;
 
     margin: auto;
     grid-template-columns: repeat(auto-fill,minmax(200px,1fr))
